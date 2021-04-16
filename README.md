@@ -52,4 +52,5 @@ Umm, open your terminal. If you don't see an output, either i'm dumb or you are,
 I have literally no idea what I'm doing with Bash scripts, so if you have improvements, please submit a PR.
 
 - Add config file to allow for *time left* format changes.
+- Give it some more sparkle 🪄. The output is about as interesting as my love life.
 - Re-connect with my family
