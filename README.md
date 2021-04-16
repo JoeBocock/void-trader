@@ -1,6 +1,6 @@
 # 💸 void-trader 💸
 
-Void Trader is a custom oh-my-zsh plugin that displays the time left until Warframe Void Trader arrives.
+Void Trader is a custom oh-my-zsh plugin that displays the time left until the Warframe Void Trader arrives.
 
 Ever been hard at work coding the next big SPA and thought... 
 
