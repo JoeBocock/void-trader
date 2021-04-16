@@ -11,12 +11,13 @@ if ! command -v curl >/dev/null 2>&1 ; then
 fi
 
 # COMMONS
-cache_file=cache.json
+script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cache_file="${script_dir}/cache.json"
 current_date=`date +%s`
 
 # FUNCTIONS
 function rebuild_cache {
-    curl -s 'http://content.warframe.com/dynamic/worldState.php' | jq '. | {NextVisitStart: .VoidTraders[0].Activation."$date"."$numberLong", NextVisitEnd: .VoidTraders[0].Expiry."$date"."$numberLong", Location: .VoidTraders[0].Node}' > cache.json
+    curl -s 'http://content.warframe.com/dynamic/worldState.php' | jq '. | {NextVisitStart: .VoidTraders[0].Activation."$date"."$numberLong", NextVisitEnd: .VoidTraders[0].Expiry."$date"."$numberLong", Location: .VoidTraders[0].Node}' > "${cache_file}"
 }
 
 function outdated_check {
