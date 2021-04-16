@@ -1,4 +1,4 @@
-# void-trader
+# 💸 void-trader 💸
 
 Ever been hard at work coding the next big SPA and thought... 
 
