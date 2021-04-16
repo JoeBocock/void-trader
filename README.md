@@ -26,7 +26,7 @@ Curl fetches the data and jq allows for easier parsing of JSON as the response w
 Clone this repo into `~/.oh-my-zsh/custom/plugins`
 
 ``` 
-  git clone https://github.com/JoeBocock/void-trader.git ~/.oh-my-zsh/custom/plugins 
+  git clone https://github.com/JoeBocock/void-trader.git ~/.oh-my-zsh/custom/plugins/void-trader 
 ```
 
 Edit your `~/.zshrc` and add void-trader to your plugin list.
