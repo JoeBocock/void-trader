@@ -12,7 +12,7 @@ fi
 
 # COMMONS
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-cache_file="${script_dir}/cache.json"
+cache_file="${script_dir}/.void-trader-cache.json"
 current_date=`date +%s`
 
 # FUNCTIONS
