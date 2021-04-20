@@ -11,7 +11,7 @@ if ! command -v curl >/dev/null 2>&1 ; then
 fi
 
 # COMMONS
-script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+script_dir=${0:A:h}
 cache_file="${script_dir}/.void-trader-cache.json"
 current_date=`date +%s`
 
