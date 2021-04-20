@@ -12,7 +12,7 @@ fi
 
 # COMMONS
 script_dir=${0:A:h}
-cache_file="${script_dir}/cache.json"
+cache_file="${script_dir}/.void-trader-cache.json"
 current_date=`date +%s`
 
 # FUNCTIONS
