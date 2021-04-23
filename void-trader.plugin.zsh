@@ -49,7 +49,7 @@ function display_message {
 
     elif [ "$end_date" -gt "$current_date" ]
         then
-            echo "The Void Trader is currently active at at" "$location" "! 🙌"
+            echo "The Void Trader is currently active at" "$location""! 🙌"
     fi
 }
 
